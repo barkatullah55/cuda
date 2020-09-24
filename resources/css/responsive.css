@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1200px) {
+  header {
+    height: 65vh;
+  }
+  .row {
+    margin: 0 15px;
+  }
+  .hero-text-box {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 57.5%;
+  }
+  /* .hero-text-box {
+    width: 90%;
+  } */
+  .main-nav {
+    display: none;
+  }
+  .client-photo {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .client-review {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .contact-section form {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* mobile menu */
+  .mobile-menu span {
+    display: block;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .span_1_of_4 {
+    width: 49.2%;
+  }
+  .span_1_of_4:nth-child(3) {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .little-description {
+    width: 100%;
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+  .footer-section li {
+    margin: 0 0.3rem;
+    line-height: 3.5rem;
+  }
+  .footer-section ul li a {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  header {
+    height: 80vh;
+  }
+  .span_1_of_4 {
+    width: 100%;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  .portfolio-filter button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.3rem 0.1rem;
+  }
+  .footer-section li {
+    margin: 0 0.3rem;
+  }
+  .footer-section ul li a {
+    font-size: 1.5rem;
+  }
+}
